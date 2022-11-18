@@ -16,7 +16,8 @@ public class NumCompare {
             System.out.println(numOne + " is equal to " + numTwo + ".");
         } else if (numOne > numTwo) {
             System.out.println(numOne + " is greater than " + numTwo + ".");
-
+        } else if (numTwo > numOne) {
+            System.out.println(numTwo + " is greater than " + numOne + ".");
         }
     }
 }
